@@ -1,8 +1,10 @@
 import './App.css';
 import React from 'react';
 
+import Average from './components/Average';
 import Range from './components/Range';
-import Card from './components/Card';
+import Sort from './components/Sort';
+import Sum from './components/Sum';
 
 function App() {
   return (
@@ -12,9 +14,9 @@ function App() {
         <Range></Range>
       </div>
       <div className='line'>
-        <Card title="Card 2" blue>Test</Card>
-        <Card title="Card 3" green>Test</Card>
-        <Card title="Card 4" purple>Test</Card>
+        <Average></Average>
+        <Sum></Sum>
+        <Sort></Sort>
       </div>
     </div>
   );
