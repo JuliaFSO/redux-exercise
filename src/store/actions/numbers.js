@@ -1,6 +1,5 @@
 import {NUM_MIN_CHANGED, NUM_MAX_CHANGED} from './actionTypes'
 
-
 export function changeMin(newNumber) {
   return {
     type: NUM_MIN_CHANGED,
